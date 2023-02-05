@@ -8,13 +8,13 @@ Open two consoles.<br />
 first console:
 
 ```console
-cd client && npm i && npm start
+cd client && npm ci && npm start
 ```
 
 second console:
 
 ```console
-cd server && npm i && npm start
+cd server && npm ci && npm start
 ```
 
 # Docker Run
