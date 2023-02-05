@@ -1,0 +1,32 @@
+.chatBubble {
+  width: auto;
+  padding: 10px;
+  margin: 20px 20px 0 0;
+  border-radius: 10px;
+  float: left;
+  clear: both;
+}
+
+.chatBubble p {
+  display: inline;
+  padding: 0;
+  margin: 0;
+}
+
+.chatBubble strong {
+  display: inline-block;
+  font-weight: bold;
+}
+
+.chatBubble.other {
+  float: right;
+  margin: 20px 0 0 20px;
+  background-color: #fff;
+}
+
+.chatBubble.me {
+  float: left;
+  margin: 20px 20px 0 0;
+  background-color: #333;
+  color: #fff;
+}

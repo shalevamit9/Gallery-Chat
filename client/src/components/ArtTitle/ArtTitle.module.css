@@ -1,0 +1,27 @@
+.container {
+  padding: 10px 8px;
+}
+
+.artName {
+  display: block;
+  font-size: large;
+  margin-right: 10px;
+} 
+
+.artistName {
+  display: block;
+  font-size: medium;
+}
+
+@media (min-width: 768px) {
+  .artName {
+    display: inline;
+    font-size: xx-large;
+    margin-right: 10px;
+  }
+
+  .artistName {
+    display: inline;
+    font-size: large;
+  }
+}

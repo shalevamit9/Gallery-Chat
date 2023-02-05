@@ -1,0 +1,12 @@
+.centeredFlex {
+  display: flex;
+  height: 90%;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+  .centeredFlex {
+    flex-direction: column;
+    align-items: center;
+  }
+}

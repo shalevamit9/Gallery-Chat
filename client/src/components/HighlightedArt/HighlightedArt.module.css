@@ -1,0 +1,12 @@
+.highlightedImg {
+  border-radius: 25px;
+  height: 90%;
+  width: 60%;
+}
+
+@media (max-width: 768px) {
+  .highlightedImg {
+    margin-bottom: 30px;
+    width: 275px;
+  }
+}
