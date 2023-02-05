@@ -8,7 +8,7 @@ import {
 } from '@nestjs/common';
 import { Observable, throwError } from 'rxjs';
 import { catchError } from 'rxjs/operators';
-import { ResourceNotFoundException } from 'src/exceptions/resource-not-found.exception';
+import { ResourceNotFoundException } from '../exceptions';
 
 @Injectable()
 export class NotFoundInterceptor implements NestInterceptor {
