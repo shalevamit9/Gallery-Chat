@@ -4,7 +4,7 @@ This project can run by using docker-compose or manually running the application
 
 # Manual Run
 
-Open two consoles.
+Open two consoles.<br />
 first console:
 
 ```console
